@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Mamun | Personal Space</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: #1e1e1e;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            text-align: center;
+            max-width: 300px;
+            border: 1px solid #333;
+        }
+        h1 { color: #bb86fc; margin-bottom: 0.5rem; }
+        p { color: #b0b0b0; line-height: 1.6; }
+        .tag {
+            display: inline-block;
+            background: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Al Mamun</h1>
+        <p>Tech enthusiast from Barpeta, Assam. Turning an old OnePlus 7 Pro into a server.</p>
+        
+        <div class="tag">Movies</div>
+        <div class="tag">Series</div>
+        <div class="tag">Anime</div>
+        
+        <p style="margin-top: 20px; font-size: 0.7rem; color: #666;">
+            Hosted via GitHub Pages
+        </p>
+    </div>
+
+</body>
+</html>
